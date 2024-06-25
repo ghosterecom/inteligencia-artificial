@@ -10,11 +10,11 @@ const perguntas = [
         alterntivas: ["Isso é assustador!, Isso é maravilhoso!"],
     },
     {
-        enunciado: "pergunta 2",
-        alterntivas: ["alternativa 1, alternativa 2"],
+        enunciado: "Com a descoberta desta tecnologia uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre IA. No fim de uma aula ela pede que Gabriel escreva um trabalho sobre o uso de tecnologia em sala de aula. Qual atitude Gabriel toma?
+     "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema."],
     },
     {
-        enunciado: "pergunta 3",
+        enunciado: "Depois que Gabriel escreveu o trabalho, teve uma discussão sobre o impacto da IA no trabalho do futuro o que Gabriel faz:",
         alterntivas: ["alternativa 1, alternativa 2"],
     },
 ];
