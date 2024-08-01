@@ -10,11 +10,13 @@ const perguntas = [
         alternativas: [
         {
             texto:"Isso é assustador!",
-            afirmação: "Afirmação 1" 
+            afirmação: " No início, ficou com medo do que esse tecnogio pode fazer." ,
+            "Achou assustador pensar na velocidade com que a tecnologia está avançando."
         },
         {
             texto:"Isso é maravilhoso!",
-            afirmação: "Afirmação 2"
+            afirmação: "Quis saber como usar IA no seu dia a dia.",
+            "Pensou que IA pode ajudar em tarefas da sua vida."
         }
         ],
     },
@@ -23,7 +25,7 @@ const perguntas = [
         alternativas: [
            {
             texto:"Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.", 
-            afirmação: "Afirmação 1"
+            afirmação: ""
            },
     {
                texto:"Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
@@ -79,12 +81,11 @@ function mostraAlternativas(){
         botaoAlternativas.addEventListener("click", () =>
             respostaSelecionada(alternativa)); 
             function respostaSelecionada (opcaoSelecionada){
-                const afirmacoes = opcaoSelecionada.afirmacao;
+                const afirmacoes = opcaoSelecionada.afirmação;
                 historiaFinal += afirmacoes+ "";
                 atual++;
                 mostraPergunta();
-            }
-        );
+            };
         caixaAlternativas.appendChild(botaoAlternativas);
         }
 }
