@@ -1,4 +1,8 @@
+const nomes = ["Ana", "Fernanda", "Maria Eduarda", "Marcelo", "Amanda", "Gustavo", "Gabriel"];
+
 export function aleatorio (lista){
-    //trecho do codico suprimido
-}
-const nomes = ["sergio", "igor", "gabriel"];
+    const posicao = Math.floor(Math.random()*lista.length);   
+    return lista [posicao];
+ }
+
+ export const nome = aleatorio(nomes)
