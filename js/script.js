@@ -4,13 +4,26 @@ import { perguntas } from './perguntas.js';
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-resultados");
+const caixaResultados = document.querySelector(".caixa-resultados");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoJogarNovamente = document.querySelector(".novamente-btn");
+const botaoiniciar = document.querySelector(".iniciar-btn");
+const telainicial = document.querySelector(".tela-inicial");
 
 let atual = 0;
 let perguntaAtual;
 let historiaFinal = "";
+
+botaoiniciar.addEventListener('click', iniciajogo);
+function iniciajogo(){
+    atual = 0;
+    historiaFinal = "";
+    telainicial.style.display = 'none';
+    caixaPerguntas.classList.remove("mostrar");
+    caixaAlternativas.classList.remove("mostrar");
+    caixaAlternativas.classList.remove("mostrar");
+    mostraPergunta();
+}
 
 function mostraPergunta() {
     if (atual >= perguntas.length) {
@@ -66,4 +79,3 @@ function substituiNome() {
 }
 
 substituiNome();
-mostraPergunta();

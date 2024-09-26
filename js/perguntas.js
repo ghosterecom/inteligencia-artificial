@@ -60,14 +60,14 @@ export const perguntas = [
         enunciado: "Ao final da discussão, a sua esposa entendeu que era para o bem da sua lavoura.",
         alternativas: [
             {
-                texto: "ele á esplicou que aplicando os novos produtos mesmo com o custo elevado teria uma producão alta.",
+                texto: "Ele á explicou que aplicando os novos produtos mesmo com o custo elevado teria uma producão alta.",
                 afirmacao: [
                     "Acelerou o processo de sua lavoura pois os fertilizantes eram precosses."
                 ],
                 proxima: 7,
                 },
             {
-                texto: "ele vai ajudar os seus amigos agronomos na divulgação dos produtos.",
+                texto: "Ele vai ajudar os seus amigos agronomos na divulgação dos produtos.",
                 afirmacao: [
                     "Notou também que muitas pessoas não sabem ainda utilizar os produtos de lançamento, e ele conseguiu fornecer os seus conhecimentos."
                 ],
@@ -76,10 +76,10 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "ele teve o trabalho de participar na divulgação do produto indicado pelos seus amigos agronomos. ",
+        enunciado: "Ele teve o trabalho de participar na divulgação do produto indicado pelos seus amigos agronomos. ",
         alternativas: [
             {
-                texto: "ele teve uma boa produção graças aos produtos indicados pelos agronomos.",
+                texto: "Ele teve uma boa produção graças aos produtos indicados pelos agronomos.",
                 afirmacao: "felismente ele teve uma otima produção."
             },
             {
