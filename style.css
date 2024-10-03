@@ -48,7 +48,7 @@ button:hover {
     color: var(--cor-principal);
 }
 
-.caixa-resultado{
+.caixa-resultados{
     display: none;
 }
 
