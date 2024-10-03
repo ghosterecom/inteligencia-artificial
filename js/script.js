@@ -66,7 +66,7 @@ function mostraResultado() {
     caixaPerguntas.textContent = `Em 2025, ${nome}`;
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-    caixaResultados.classList.add("mostrar");
+    caixaResultados.classList.add("mostrar");u
     botaoJogarNovamente.addEventListener("click", jogaNovamente);
 }
 
